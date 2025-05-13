@@ -12,6 +12,9 @@ include("db.php");
 <body>
     <div class="container mt-5">
         <h2 class="text-center mb-4">Liste des Clients</h2>
+            <div class="mb-3 text-end">
+                <a href="add.php" class="btn btn-success">Ajouter un Client</a>
+            </div>
         <table class="table table-bordered table-striped table-hover">
             <thead class="table-dark">
                 <tr>
@@ -19,6 +22,7 @@ include("db.php");
                     <th>Phone</th>
                     <th>Adresse</th>
                     <th>Photo</th>
+                    <th>Actions</th>
                 </tr>
             </thead>
             <tbody>

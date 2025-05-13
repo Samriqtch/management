@@ -20,7 +20,7 @@ $row = $st->fetch(PDO::FETCH_ASSOC);
             <div class="card-body">
                 <h5 class="card-title"><?php echo $row["fullname"]; ?></h5>
                 <p class="card-text"><strong>Téléphone :</strong> <?php echo $row["phone"]; ?></p>
-                <p class="card-text"><strong>Adresse :</strong> <?php echo $row["address"]; ?></p>
+                <p class="card-text"><strong>Adresse :</strong> <?php echo $row["adress"]; ?></p>
                 <p class="card-text"><strong>Photo :</strong></p>
                 <img src="uploads/<?php echo $row['photo']; ?>" alt="photo" class="img-thumbnail" width="100" height="100" onerror="this.onerror=null; this.src='default.jpg';">
             </div>
